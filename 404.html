@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found | Malik Adesiyan</title>
+<meta name="description" content="The page you're looking for doesn't exist on this site.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='11' fill='%231F4A3D'/%3E%3Ccircle cx='12' cy='12' r='7.5' fill='none' stroke='%23C1440E' stroke-width='1.8'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F7F2E7; --text:#181818; --text-soft:#5c584f;
+    --frame:#1F4A3D; --frame-tint:#1F4A3D14; --orange:#C1440E;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0C1917; --text:#F5F0E4; --text-soft:#b7ad9c; --frame:#2F6350; --frame-tint:#2F635033; }
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; min-height:100vh;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    background:var(--bg); color:var(--text);
+    font-family:'Lora',serif; line-height:1.6; text-align:center;
+    padding:40px 20px;
+  }
+  .badge{
+    display:inline-block; padding:8px 18px; border-radius:999px;
+    background:var(--frame-tint); color:var(--frame);
+    font-size:0.78rem; font-weight:700; letter-spacing:0.04em; margin-bottom:26px;
+  }
+  h1{ font-family:'Playfair Display',serif; font-size:clamp(1.8rem,5vw,2.6rem); margin:0 0 14px; font-weight:800; }
+  p{ color:var(--text-soft); max-width:46ch; margin:0 auto 30px; }
+  a.btn{
+    display:inline-block; font-size:0.9rem; font-weight:600;
+    padding:13px 28px; border-radius:999px; text-decoration:none;
+    background:var(--orange); color:#fff; transition:background 0.15s;
+  }
+  a.btn:hover{ background:#a3390b; }
+</style>
+</head>
+<body>
+  <div class="badge">PAGE NOT FOUND</div>
+  <h1>This page doesn't exist.</h1>
+  <p>The link may be broken, or the page may have moved.</p>
+  <a class="btn" href="index.html">← Back to the homepage</a>
+</body>
+</html>

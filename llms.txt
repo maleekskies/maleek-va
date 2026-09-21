@@ -1,0 +1,16 @@
+# Malik Adesiyan
+
+Personal portfolio site for Malik Adesiyan, an Operations & Property
+Management Virtual Assistant supporting UK, US and Canada landlords and Airbnb
+hosts.
+
+## Pages
+
+- / (index.html): overview, about, links to the two work areas below, tools used, a client review, and contact details.
+- /ops.html: Operations & Property Management work, scope and sample projects.
+- /va.html: Virtual Assistant work, scope and sample projects.
+- /reviews.html: client feedback.
+
+## Contact
+
+- Email: maleekskies@gmail.com
